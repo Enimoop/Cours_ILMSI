@@ -21,6 +21,7 @@ public class Spawner : MonoBehaviour
             SpawnSphere();
 
             _nextSpawn = Time.time + Random.Range(SpawnDelay.x, SpawnDelay.y);
+
         }
     }
 
@@ -31,6 +32,8 @@ public class Spawner : MonoBehaviour
             Random.Range(-SpawnBounds.x, SpawnBounds.x),
             Random.Range(-SpawnBounds.y, SpawnBounds.y),
             0);
+
+        o.Speed += Time.time * 3f;
     }
 
     private void OnDrawGizmosSelected()

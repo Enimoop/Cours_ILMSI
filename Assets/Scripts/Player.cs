@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
@@ -23,6 +24,9 @@ public class Player : MonoBehaviour
 
     [SerializeField]
     private GameObject GameOverScreen;
+
+    [SerializeField]
+    private TMP_Text finalScore;
 
     void OnMove(InputValue value)
     {
@@ -51,6 +55,7 @@ public class Player : MonoBehaviour
             if (HP <= 0)
             {
                 enabled = false;
+                finalScore.text = ((int)Score.score).ToString();
                 GameOverScreen.SetActive(true);
             }
         }
