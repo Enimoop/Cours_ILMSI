@@ -13,6 +13,9 @@ public class Spawner : MonoBehaviour
 
     private float _nextSpawn;
 
+    [SerializeField]
+    private int spawnAmount = 3;
+
     // Update is called once per frame
     void Update()
     {
@@ -26,11 +29,14 @@ public class Spawner : MonoBehaviour
 
     private void SpawnSphere()
     {
-        Obstacle o = Instantiate(ObstaclePrefab, transform);
-        o.transform.localPosition = new Vector3(
-            Random.Range(-SpawnBounds.x, SpawnBounds.x),
-            Random.Range(-SpawnBounds.y, SpawnBounds.y),
-            0);
+        for (int i = 0; i < spawnAmount; i++)
+        {
+            Obstacle o = Instantiate(ObstaclePrefab, transform);
+            o.transform.localPosition = new Vector3(
+                Random.Range(-SpawnBounds.x, SpawnBounds.x),
+                Random.Range(-SpawnBounds.y, SpawnBounds.y),
+                0);
+        }
     }
 
     private void OnDrawGizmosSelected()
