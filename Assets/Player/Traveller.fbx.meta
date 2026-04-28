@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 6bf733d3185937243a4cb463468d6dbc
+guid: a3f8a4b208a27a345896c6d724fe952b
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Traveller_HEA_PlayerHologram_BHQTower_mat
+    second: {fileID: 2100000, guid: dd08f6a1e860115479f74dcc3c23918d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
