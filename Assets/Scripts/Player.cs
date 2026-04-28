@@ -34,9 +34,6 @@ public class Player : MonoBehaviour
         if(_movement.magnitude > 0)
         {
             Body.AddForce((Vector3)_movement * Speed, ForceMode.Impulse);
-        } else
-        {
-            Body.linearVelocity *= SpeedDecrease;
         }
     }
 
