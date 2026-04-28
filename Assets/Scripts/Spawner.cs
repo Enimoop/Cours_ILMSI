@@ -14,7 +14,7 @@ public class Spawner : MonoBehaviour
     private float _nextSpawn;
 
     [SerializeField]
-    private int spawnAmount = 3;
+    private int spawnAmount = 60;
 
     // Update is called once per frame
     void Update()
@@ -24,19 +24,22 @@ public class Spawner : MonoBehaviour
             SpawnSphere();
 
             _nextSpawn = Time.time + Random.Range(SpawnDelay.x, SpawnDelay.y);
+
         }
     }
 
     private void SpawnSphere()
     {
         for (int i = 0; i < spawnAmount; i++)
-        {
-            Obstacle o = Instantiate(ObstaclePrefab, transform);
-            o.transform.localPosition = new Vector3(
-                Random.Range(-SpawnBounds.x, SpawnBounds.x),
-                Random.Range(-SpawnBounds.y, SpawnBounds.y),
-                0);
-        }
+		{
+		    Obstacle o = Instantiate(ObstaclePrefab, transform);
+		    o.transform.localPosition = new Vector3(
+		        Random.Range(-SpawnBounds.x, SpawnBounds.x),
+		        Random.Range(-SpawnBounds.y, SpawnBounds.y),
+		        0);
+
+		    o.Speed += Time.time * 0.1f;
+		}
     }
 
     private void OnDrawGizmosSelected()

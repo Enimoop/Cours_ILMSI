@@ -3,7 +3,7 @@ using UnityEngine;
 public class Obstacle : MonoBehaviour
 {
     [SerializeField]
-    private float Speed;
+    public float Speed;
 
     [SerializeField]
     private float DestroyDistance;
@@ -16,7 +16,7 @@ public class Obstacle : MonoBehaviour
     {
         transform.position += new Vector3(0, 0, -Speed * Time.deltaTime);
 
-        if(transform.position.z < DestroyDistance)
+        if (transform.position.z < DestroyDistance)
         {
             Destroy(gameObject);
         }

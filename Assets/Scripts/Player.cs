@@ -2,6 +2,7 @@ using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
@@ -25,10 +26,16 @@ public class Player : MonoBehaviour
     [SerializeField]
     private GameObject GameOverScreen;
 
-    [SerializeField] private Transform CameraTransform;
-    [SerializeField] private float TiltAngle = 10f;
-    [SerializeField] private float TiltSpeed = 5f;
+    [SerializeField]
+    private Transform CameraTransform;
+    [SerializeField]
+    private float TiltAngle = 10f;
+    [SerializeField] 
+    private float TiltSpeed = 5f;
     private float _currentTilt;
+
+    [SerializeField]
+    private TMP_Text finalScore;
 
     void OnMove(InputValue value)
     {
@@ -60,7 +67,9 @@ public class Player : MonoBehaviour
             HPSlider.value = HP;
             if (HP <= 0)
             {
+                UnityEngine.Debug.Log("Perdu");
                 enabled = false;
+                finalScore.text = ((int)Score.score).ToString();
                 GameOverScreen.SetActive(true);
             }
         }
