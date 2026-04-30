@@ -11,6 +11,8 @@ public class Interact : MonoBehaviour
 
     public TMP_Text interactText;
     public Camera cam;
+    public GameObject gameToStart;
+    public GameObject introToFinish;
     void Update()
     {
         Vector2 mousePos = Mouse.current.position.ReadValue();
@@ -28,6 +30,9 @@ public class Interact : MonoBehaviour
                 if (Keyboard.current.eKey.wasPressedThisFrame)
                 {
                     Debug.Log("E");
+                    introToFinish.SetActive(false);
+                    gameToStart.SetActive(true);
+
                 }
             }
         }
