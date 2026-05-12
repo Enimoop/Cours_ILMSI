@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Terrain_TH_Geyser_Village_mat
+  m_Shader: {fileID: 4800000, guid: 384a5ee64a81d3246b88c3ddc9b5c30b, type: 2}
+  m_ShaderKeywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 385be4830524b3a41a3e8a33789fff9a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 674625435b70bc541bf6c46c9b396743, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+      _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 45366d6297b44d14aa953b2bd29cc3df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _OverlayBumpMap:
+        m_Texture: {fileID: 2800000, guid: 385be4830524b3a41a3e8a33789fff9a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _OverlayMainTex:
+        m_Texture: {fileID: 2800000, guid: fdecaad3f6a202c4e8677463dfaf1184, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+      _OverlayMetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 45366d6297b44d14aa953b2bd29cc3df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _AltitudeBlendWidth: 0
+      _AltitudeCutoff: 186.2
+      _AngleBlendWidth: 0.5
+      _AngleCutoff: 0.5
+      _BumpScale: 0.3
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DistortScale: 0
+      _DstBlend: 0
+      _EdgeLength: 0.1
+      _EdgeOcclusion: 1
+      _ExtinctionDist: 1
+      _FogDensity: 1
+      _GlossMapScale: 0.6
+      _Glossiness: 0.8
+      _GlossyReflections: 1
+      _HeightBlendWidth: 1
+      _Metallic: 0
+      _Metalness: 0
+      _Mode: 0
+      _OcclusionStrength: 0.3
+      _OverlayBumpScale: 0.1
+      _OverlayGlossiness: 0.4
+      _OverlayMetallic: 0
+      _Parallax: 0.02
+      _Smoothness: 0.95
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _VertexColorAlbedo: 0
+      _VertexOcclusion: 0
+      _ViewModel: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _FogColor: {r: 0.64705884, g: 0.64705884, b: 0.64705884, a: 1}
+      _OverlayColor: {r: 1, g: 1, b: 1, a: 1}
+      _SpecColor: {r: 0.53676474, g: 0.53676474, b: 0.53676474, a: 1}
+      _WaveMovement: {r: 0, g: 0, b: 0, a: 0}
+      _WaveMovement2: {r: 0, g: 0, b: 0, a: 0}
+      _WaveMovement3: {r: 0, g: 0, b: 0, a: 0}
+      _WaveScale: {r: 0, g: 0, b: 0, a: 0}
+      _WaveScale2: {r: 0, g: 0, b: 0, a: 0}
+      _WaveScale3: {r: 0, g: 0, b: 0, a: 0}

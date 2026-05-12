@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Villager_HEA_Rutile_Skin_mat
+  m_Shader: {fileID: 4800000, guid: 0587625e9cd3d894e8433102e3692f93, type: 2}
+  m_ShaderKeywords: _CHARACTER_LIGHTING _EMISSION _METALLICGLOSSMAP _NORMALMAP
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 042bf00951d141e4ea02becbc7eac065, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 6753b1520feb1ab4a8427a6384c576dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: b968a5e1cf5f6224392a746a9aec86a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _TintMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _AlbedoTint: 0
+      _Ambient: 0.2
+      _BumpScale: 1
+      _CharacterLighting: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _Distortion: -1
+      _DstBlend: 0
+      _GlossMapScale: 0.95
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _Metallic: 0
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _Power: 1
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _VertexColorAlbedo: 0
+      _VertexColorSpecular: 0
+      _VertexOcclusion: 0
+      _ViewModel: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0.25, g: 0.25, b: 0.25, a: 1}
+      _TintColor: {r: 1, g: 1, b: 1, a: 1}

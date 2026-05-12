@@ -6,6 +6,6 @@ public class EnterShipAnimation : MonoBehaviour
 
     private void Update()
     {
-        transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime, Space.World);
+        transform.Rotate(Vector3.forward, rotationSpeed * Time.deltaTime, Space.Self);
     }
 }

@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Props_NOM_WarpCore_mat
+  m_Shader: {fileID: 4800000, guid: d2ec12041b460bb4aac5be135bb01277, type: 2}
+  m_ShaderKeywords: _ALBEDOBLENDMODE_MULTIPLY2X _DETAIL_MULX2 _EMISSION _GLOSSBLENDMODE_BLEND _METALBLENDMODE_BLEND _METALLICGLOSSMAP _NORMALBLENDMODE_OVERLAY _NORMALMAP _VERTEXALBEDO _VERTEXOCCLUSION
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BlendMap:
+        m_Texture: {fileID: 2800000, guid: 1d7d690a48186ad4b89e4391a34254e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BumpMap:
+        m_Texture: {fileID: 2800000, guid: f01b49de35827594a81aa3de5caa93a0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Detail1BumpMap:
+        m_Texture: {fileID: 2800000, guid: 760f2599c895d444987c5d9a3f1455b6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Detail1MainTex:
+        m_Texture: {fileID: 2800000, guid: 08095b7622c48934682383a82ff70c25, type: 3}
+        m_Scale: {x: 6, y: 6}
+        m_Offset: {x: 0, y: 0}
+      _Detail1MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: d2555eba97a05ed44aad59c839094346, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Detail2BumpMap:
+        m_Texture: {fileID: 2800000, guid: ee59836fc6f5aa140ad7df7d9bf18cb2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Detail2MainTex:
+        m_Texture: {fileID: 2800000, guid: 1bcfec5538219b448ba94b1a5f369f81, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+      _Detail2MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 419ab05dacb80144eb7f1d99ef24e138, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Detail3BumpMap:
+        m_Texture: {fileID: 2800000, guid: ca446fd15ae2af341a00b66fd2dac631, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Detail3MainTex:
+        m_Texture: {fileID: 2800000, guid: fac5c5e6e3e098f4d8ed02fa8b82e6d6, type: 3}
+        m_Scale: {x: 6, y: 6}
+        m_Offset: {x: 0, y: 0}
+      _Detail3MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 87763a7630532774b9057674343c7544, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Detail4BumpMap:
+        m_Texture: {fileID: 2800000, guid: ca446fd15ae2af341a00b66fd2dac631, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Detail4MainTex:
+        m_Texture: {fileID: 2800000, guid: de056e1d3021b6948acd3f5d0059efb1, type: 3}
+        m_Scale: {x: 6, y: 6}
+        m_Offset: {x: 0, y: 0}
+      _Detail4MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 87763a7630532774b9057674343c7544, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: a5783db2808b5504ca3cd2cc3cf0173c, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+      _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 419ab05dacb80144eb7f1d99ef24e138, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _AlbedoBlendMode: 3
+      _BlendUV: 1
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _Detail1BumpScale: 0.5
+      _Detail1Glossiness: 0.8
+      _Detail1Metallic: 1
+      _Detail1UV: 0
+      _Detail2BumpScale: 1
+      _Detail2Glossiness: 1
+      _Detail2Metallic: 0
+      _Detail2UV: 0
+      _Detail3BumpScale: 1
+      _Detail3Glossiness: 1
+      _Detail3Metallic: 0
+      _Detail3UV: 0
+      _Detail4BumpScale: 1
+      _Detail4Glossiness: 0.5
+      _Detail4Metallic: 0
+      _Detail4UV: 0
+      _DetailBumpScale: 1
+      _DetailGlossiness: 0
+      _DetailMetallic: 0
+      _DetailNormalMapScale: 1
+      _DetailUV: 0
+      _DstBlend: 0
+      _EmissionBlendMode: 0
+      _GlossBlendMode: 4
+      _GlossMapScale: 1
+      _Glossiness: 1
+      _GlossyReflections: 1
+      _MainUV: 0
+      _MetalBlendMode: 1
+      _Metallic: 0
+      _Mode: 0
+      _NormalBlendMode: 1
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _VertexAlbedo: 1
+      _VertexOcclusion: 1
+      _ViewModel: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Detail1Color: {r: 1, g: 1, b: 1, a: 1}
+      _Detail1EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _Detail2Color: {r: 1, g: 1, b: 1, a: 1}
+      _Detail2EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _Detail3Color: {r: 1, g: 1, b: 1, a: 1}
+      _Detail3EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _Detail4Color: {r: 1, g: 1, b: 1, a: 1}
+      _Detail4EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _DetailColor: {r: 1, g: 1, b: 1, a: 1}
+      _DetailEmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

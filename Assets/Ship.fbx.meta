@@ -3,7 +3,102 @@ guid: 6bf733d3185937243a4cb463468d6dbc
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black_Dirt
+    second: {fileID: 2100000, guid: cb5366727a3ee624690f737f6cdb0fe3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue_Fabric
+    second: {fileID: 2100000, guid: 20558acda942cf046b1bc9f1168c6e62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkPlastic
+    second: {fileID: 2100000, guid: 95b1886ba2f169e42b74237b671de10e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray_Paint
+    second: {fileID: 2100000, guid: 4fc3cf9aa8bdc0b4095185c8124f1715, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Green_Fabric
+    second: {fileID: 2100000, guid: 79e0cb51db4d8b34c876b9407f8e721b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: 34eb4ade7a9d3cc4fa0dcc28e2e7d3fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light_Beam
+    second: {fileID: 2100000, guid: dcf5a729fd78ba2439a4cbe8f4fe19fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: a28ea0cd9804d854a9b2dca6b9ce2361, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Orange_Fabric
+    second: {fileID: 2100000, guid: bab26197bfd29654ab9778418548d15c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Orange_Paint
+    second: {fileID: 2100000, guid: 90ca66ebfadd3f547b5185a2aa17e778, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Polish_Gold
+    second: {fileID: 2100000, guid: 71922d62f8085c14eb1d83b208b888ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Plastic
+    second: {fileID: 2100000, guid: 9e197bf6c47635c438e5fcaa6ebd5228, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rope
+    second: {fileID: 2100000, guid: 9ce8260ae08fafd4e8cb486346416097, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rough_Brass
+    second: {fileID: 2100000, guid: 7735e803107a1274c990c74d8a272be1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rough_Metal
+    second: {fileID: 2100000, guid: ba48ad7af316ba64a9694c3d4534d4a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rusty_Metal
+    second: {fileID: 2100000, guid: 4598db54f37b3ff40aee9749de5202dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Weared_Metal
+    second: {fileID: 2100000, guid: 192a2e41102478048857802fee4dd51f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White_paint
+    second: {fileID: 2100000, guid: c14bb3694808de44383d138c754e8f7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 01f6f79dea539304b9ee703b1c21eab1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

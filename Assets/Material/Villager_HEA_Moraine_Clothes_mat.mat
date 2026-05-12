@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Villager_HEA_Moraine_Clothes_mat
+  m_Shader: {fileID: 4800000, guid: 0d38c648e1e0e894cb125431fef6564f, type: 2}
+  m_ShaderKeywords: _CHARACTER_LIGHTING _EMISSION _METALLICGLOSSMAP _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 7186bf0f63511884bbce285f3129384e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7f1212b3b1fc33148b312a17a8d8f886, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: d5d3cb3416992de43be5841e2b80ab17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 95faf741a47dd96459a503a3f190900a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _TintMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _AlbedoTint: 0
+      _BumpScale: 1
+      _CharacterLighting: 1
+      _CullMode: 2
+      _Cutoff: 0.5
+      _CutoffEnabled: 0
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _FaceMode: 0
+      _GlossMapScale: 0.85
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _Metallic: 0
+      _Metalness: 1
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _VertexColorAlbedo: 0
+      _VertexColorSpecular: 0
+      _VertexOcclusion: 0
+      _ViewModel: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0.075, g: 0.075, b: 0.075, a: 1}
+      _TintColor: {r: 1, g: 1, b: 1, a: 1}

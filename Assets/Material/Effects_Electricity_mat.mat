@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Effects_Electricity_mat
+  m_Shader: {fileID: 4800000, guid: f96d4897e34f86e4698290c66962bc37, type: 2}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: bb72874cfedcfbe47b052005c5587d6e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.75, y: -0.75}
+      _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: b32e7d2dbc8504841b4379836bcb9626, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Noise: 0.15
+    m_Colors:
+      _Color: {r: 0.90255827, g: 0.78886825, b: 7.5070295, a: 1}

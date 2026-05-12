@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ObservatoryInterior_HEA_VillageCloth_mat
+  m_Shader: {fileID: 4800000, guid: b231d919c7d9d944588a940874f1b3bd, type: 2}
+  m_ShaderKeywords: _ALPHATEST_ON _EMISSION _METALLICGLOSSMAP _VERTEXCOLORALBEDO
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _LightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 45f7a60abc80026489bc489548021e14, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 2ca18d08c84fae4458bb965351ce3cf8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 5e2ec68cf9fc0104b9ede9423593b477, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BumpScale: 1
+      _GlossMapScale: 0.65
+      _Metallic: 1
+      _OcclusionStrength: 0.95
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}

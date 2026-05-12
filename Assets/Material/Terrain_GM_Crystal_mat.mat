@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Terrain_GM_Crystal_mat
+  m_Shader: {fileID: 4800000, guid: 4780c04ebcd08554ebf4e9ca6f6302d1, type: 2}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 18e273b8d2172864f8bcd1a10337b364, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _CrystalBumpMap:
+        m_Texture: {fileID: 2800000, guid: a47aa77fc9ee4c144a2aeffb05f02b4a, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+      _CrystalDetailBumpMap:
+        m_Texture: {fileID: 2800000, guid: 82a4e5c90986cad40959ee606a12501e, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+      _CrystalGlossMap:
+        m_Texture: {fileID: 2800000, guid: b1847fee5c47a0443a147ae0026d8d9e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DetailNormalMap:
+        m_Texture: {fileID: 2800000, guid: 9c267eef18568164f8f97f1263d0239c, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 071cec020e38d8d44be6dbac7d0de10d, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+      _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: cc096083b42bfa64fb05c4d7bd2ed232, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BumpScale: 0.75
+      _CrystalBlend: 0.527
+      _CrystalBumpScale: 0.5
+      _CrystalDetailBumpMapScale: 0.5
+      _CrystalGlossiness: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 0.75
+      _DstBlend: 0
+      _GlossMapScale: 1
+      _Glossiness: 1
+      _GlossyReflections: 1
+      _Metallic: 0
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _VertexColorAlbedo: 0
+      _VertexColorSpecular: 0
+      _VertexOcclusion: 0
+      _ViewModel: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _CrystalColor: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
