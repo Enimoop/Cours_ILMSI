@@ -27,15 +27,27 @@ public class Player : MonoBehaviour
     private GameObject GameOverScreen;
 
     [SerializeField]
+    private GameObject Spawner;
+
+    [SerializeField]
     private Transform CameraTransform;
     [SerializeField]
     private float TiltAngle = 10f;
     [SerializeField] 
     private float TiltSpeed = 5f;
+
     private float _currentTilt;
 
     [SerializeField]
     private TMP_Text finalScore;
+
+    [SerializeField] 
+    private GameObject bulletPrefab;
+
+    [SerializeField] 
+    private Transform shootPoint;
+
+  
 
     void OnMove(InputValue value)
     {
@@ -47,6 +59,11 @@ public class Player : MonoBehaviour
         float target = -_movement.x * TiltAngle;
         _currentTilt += (target - _currentTilt) * Time.deltaTime * TiltSpeed;
         CameraTransform.localEulerAngles = new Vector3(0f, 0f, _currentTilt);
+
+        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
+            Shoot();
+        }
     }
 
     private void FixedUpdate()
@@ -70,8 +87,17 @@ public class Player : MonoBehaviour
                 UnityEngine.Debug.Log("Perdu");
                 enabled = false;
                 finalScore.text = ((int)Score.score).ToString();
+                Spawner.SetActive(false);
                 GameOverScreen.SetActive(true);
             }
         }
     }
+
+    private void Shoot()
+{
+    Instantiate(bulletPrefab, shootPoint.position, Quaternion.identity);
+}
+
+
+
 }

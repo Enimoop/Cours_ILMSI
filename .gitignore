@@ -100,3 +100,4 @@ InitTestScene*.unity*
 
 # Others
 .vsconfig
+.vscode/settings.json
