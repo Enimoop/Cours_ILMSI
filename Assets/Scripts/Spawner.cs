@@ -6,6 +6,9 @@ public class Spawner : MonoBehaviour
     private Obstacle ObstaclePrefab;
 
     [SerializeField]
+    private Mesh[] AsteroidMeshes;
+
+    [SerializeField]
     private Vector2 SpawnBounds;
 
     [SerializeField]
@@ -31,15 +34,22 @@ public class Spawner : MonoBehaviour
     private void SpawnSphere()
     {
         for (int i = 0; i < spawnAmount; i++)
-		{
-		    Obstacle o = Instantiate(ObstaclePrefab, transform);
-		    o.transform.localPosition = new Vector3(
-		        Random.Range(-SpawnBounds.x, SpawnBounds.x),
-		        Random.Range(-SpawnBounds.y, SpawnBounds.y),
-		        0);
+        {
+            Obstacle o = Instantiate(ObstaclePrefab, transform);
+            o.transform.localPosition = new Vector3(
+                Random.Range(-SpawnBounds.x, SpawnBounds.x),
+                Random.Range(-SpawnBounds.y, SpawnBounds.y),
+                0);
 
-		    o.Speed += Time.time * 0.1f;
-		}
+            if (AsteroidMeshes != null && AsteroidMeshes.Length > 0)
+            {
+                MeshFilter mf = o.GetComponent<MeshFilter>();
+                if (mf != null)
+                    mf.mesh = AsteroidMeshes[Random.Range(0, AsteroidMeshes.Length)];
+            }
+
+            o.Speed += Time.time * 0.1f;
+        }
     }
 
     private void OnDrawGizmosSelected()
